@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: '', // if no resume, the button will not show up
+  resume: 'LGP-Resume-2021.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
