@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'LGP | Dev', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
+  resume: 'LGP Resume 2021.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
@@ -59,17 +59,12 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'lgalarzapunter@gmail.com',
 };
 
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: '',
-    },
     {
       id: nanoid(),
       name: 'codepen',
@@ -78,12 +73,12 @@ export const footerData = {
     {
       id: nanoid(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/lgalarzapunter/',
     },
     {
       id: nanoid(),
       name: 'github',
-      url: '',
+      url: 'https://github.com/LylyG',
     },
   ],
 };
