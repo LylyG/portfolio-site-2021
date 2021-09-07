@@ -67,11 +67,6 @@ export const footerData = {
   networks: [
     {
       id: nanoid(),
-      name: 'codepen',
-      url: '',
-    },
-    {
-      id: nanoid(),
       name: 'linkedin',
       url: 'https://www.linkedin.com/in/lgalarzapunter/',
     },
