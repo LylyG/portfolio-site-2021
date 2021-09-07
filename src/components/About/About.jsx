@@ -41,17 +41,18 @@ const About = () => {
                   {paragraphOne ||
                     "I'm a bookworm turned designer that likes to code. Currently, I work at NC State University as a User Experience Developer. I love having variety in my daily tasks and opportunities to learn. Most of time, I am opening PRs for UIs I've put together using Vuetify. When I need help adding more complexity to an interface, I pair program with the other developers and we learn as a team. Sometimes, I'm called to do some graphic design, facilitate client meetings, or even teach during a breakout session."}
                 </p>
-
-            
-                <span className="d-flex mt-3">
-                  <a
-                    target="_blank"
-                    href={`LGP-Resume-2021.pdf`}
-                  >
-                    Resume
-                  </a>
-                </span>
-            
+                {resume && (
+                  <span className="d-flex mt-3">
+                    <a
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="cta-btn cta-btn--resume"
+                      href={resume}
+                    >
+                      Resume
+                    </a>
+                  </span>
+                )}
               </div>
             </Fade>
           </Col>

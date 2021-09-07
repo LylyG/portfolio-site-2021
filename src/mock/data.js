@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
-  resume: '', // if no resume, the button will not show up
+  resume: 'https://lylyg.github.io/LGP%20Resume%20Suite%202021.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
