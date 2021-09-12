@@ -33,7 +33,7 @@ export const projectsData = [
     info: 'Context',
     blurb: 'blurb',
     info2: 'Lessons Learned',
-    blurb2: 'blurb'
+    blurb2: 'blurb',
     info3: 'Web Stack + Explanation',
     blurb3: 'blurb'
     url: '',
