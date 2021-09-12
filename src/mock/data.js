@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'Program Assessment Tool (PAT)',
     info: 'Context',
     info2: 'Lessons Learned',
-    info3: 'Paragraph 3?'
+    info3: 'Paragraph 3?',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
