@@ -35,7 +35,7 @@ export const projectsData = [
     info2: 'Lessons Learned',
     blurb2: 'blurb',
     info3: 'Web Stack + Explanation',
-    blurb3: 'blurb'
+    blurb3: 'blurb',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
