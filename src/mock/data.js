@@ -30,10 +30,20 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'Program Assessment Tool (PAT)',
-    info: '',
+    info: 'Context',
+    info2: 'Lessons Learned',
+    info3: 'Paragraph 3?'
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'project.jpg',
+    title: 'Engineering Online',
+    info: 'Context',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -42,17 +52,8 @@ export const projectsData = [
     info: '',
     info2: '',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'project.jpg',
-    title: 'Engineering Online',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  },
+    repo: '', // if no repo, the button will not show up
+  }
 ];
 
 // CONTACT DATA
