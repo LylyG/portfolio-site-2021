@@ -31,6 +31,7 @@ export const projectsData = [
     img: 'project.jpg',
     title: 'Program Assessment Tool (PAT)',
     info: 'Context',
+    blurb: 'insert context blurb here',
     info2: 'Lessons Learned',
     info3: 'Web Stack + Explanation',
     url: '',
