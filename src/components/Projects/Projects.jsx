@@ -47,8 +47,13 @@ const Projects = () => {
                           <b>{info}</b><br></br>
                           {blurb}
                         </p>
-                        <p className="mb-4">{info2}</p>
-                        <p className="mb-4">{info3}</p>
+                        <p>
+                          <b>{info2}</b><br></br>
+                          {blurb2}
+                        </p><p>
+                          <b>{info3}</b><br></br>
+                          {blurb3}
+                        </p>
                       </div>
 
                       {repo && (

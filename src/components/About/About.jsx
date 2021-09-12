@@ -38,8 +38,13 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne ||
-                    "I'm a bookworm turned designer that likes to code. Currently, I work at NC State University as a User Experience Developer. I love having variety in my daily tasks and opportunities to learn. Most of time, I am opening PRs for UIs I've put together using Vuetify. When I need help adding more complexity to an interface, I pair program with the other developers and we learn as a team. Sometimes, I'm called to do some graphic design, facilitate client meetings, or even teach during a breakout session."}
+                  {paragraphOne || ''}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphTwo || ''}
+                </p>
+                <p className="about-wrapper__info-text">
+                  {paragraphThree || ''}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
