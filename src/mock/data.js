@@ -31,9 +31,11 @@ export const projectsData = [
     img: 'project.jpg',
     title: 'Program Assessment Tool (PAT)',
     info: 'Context',
-    blurb: 'insert context blurb here',
+    blurb: 'blurb',
     info2: 'Lessons Learned',
+    blurb2: 'blurb'
     info3: 'Web Stack + Explanation',
+    blurb3: 'blurb'
     url: '',
     repo: '', // if no repo, the button will not show up
   },
@@ -42,8 +44,11 @@ export const projectsData = [
     img: 'project.jpg',
     title: 'Engineering Online',
     info: 'Context',
+    blurb: 'blurb',
     info2: 'Lessons Learned',
+    blurb2: 'blurb',
     info3: 'Web Stack + Explanation',
+    blurb3: 'blurb',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
@@ -51,9 +56,12 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'Foundation',
-    info: 'Context',
+    info: 'Context',    
+    blurb: 'blurb',
     info2: 'Lessons Learned',
+    blurb2: 'blurb',
     info3: 'Web Stack + Explanation',
+    blurb3: 'blurb',
     url: '',
     repo: '', // if no repo, the button will not show up
   }
