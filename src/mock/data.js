@@ -32,7 +32,7 @@ export const projectsData = [
     title: 'Program Assessment Tool (PAT)',
     info: 'Context',
     info2: 'Lessons Learned',
-    info3: 'Paragraph 3?',
+    info3: 'Web Stack + Explanation',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
@@ -41,7 +41,8 @@ export const projectsData = [
     img: 'project.jpg',
     title: 'Engineering Online',
     info: 'Context',
-    info2: '',
+    info2: 'Lessons Learned',
+    info3: 'Web Stack + Explanation',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
@@ -49,8 +50,9 @@ export const projectsData = [
     id: nanoid(),
     img: 'project.jpg',
     title: 'Foundation',
-    info: '',
-    info2: '',
+    info: 'Context',
+    info2: 'Lessons Learned',
+    info3: 'Web Stack + Explanation',
     url: '',
     repo: '', // if no repo, the button will not show up
   }

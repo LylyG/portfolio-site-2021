@@ -45,6 +45,7 @@ const Projects = () => {
                       <div>
                         <p>{info || ''}</p>
                         <p className="mb-4">{info2 || ''}</p>
+                        <p className="mb-4">{info3 || ''}</p>
                       </div>
 
                       {repo && (
