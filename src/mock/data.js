@@ -41,7 +41,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'eol.jpg',
+    img: 'eol.png',
     title: 'Engineering Online',
     info: 'Context',
     blurb: 'blurb',
