@@ -31,12 +31,11 @@ export const projectsData = [
     img: 'pat.png',
     title: 'Program Assessment Tool (PAT)',
     info: 'Context',
-    blurb: 'This app provides engineering programs with reporting and data collection software that will help faculty maintain' + { abet } + ' accreditation. A higher level goal is for PAT to part of a larger continuous improvement process.',
+    blurb: 'This app provides engineering programs with reporting and data collection software that will help faculty maintain ABET accreditation. A higher level goal is for PAT to part of a larger continuous improvement process.',
     info2: 'Lessons Learned',
     blurb2: 'The fewer filters between the development team and the actual software users the better. Feedback is an invaluable part of creating things that people will care about and use. Creating the right environment for that feedback cycle to happen gets harder as that distance grows.',
     info3: 'Type',
     blurb3: 'Team project',
-    abet: 'https://www.abet.org/',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
