@@ -28,7 +28,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'pat.jpg',
+    img: 'pat.png',
     title: 'Program Assessment Tool (PAT)',
     info: 'Context',
     blurb: 'blurb',
@@ -54,7 +54,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'foundation.jpg',
+    img: 'foundation.png',
     title: 'Foundation',
     info: 'Context',    
     blurb: 'blurb',
