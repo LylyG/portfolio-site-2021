@@ -52,7 +52,7 @@ export const projectsData = [
     blurb3: 'Team project',
     url: '',
     repo: '', // if no repo, the button will not show up
-  }
+  },
   {
     id: nanoid(),
     img: 'eol.png',
@@ -65,7 +65,7 @@ export const projectsData = [
     blurb3: 'Team project',
     url: '',
     repo: '', // if no repo, the button will not show up
-  },
+  }
 ];
 
 // CONTACT DATA
