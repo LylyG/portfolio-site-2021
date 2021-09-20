@@ -31,24 +31,12 @@ export const projectsData = [
     img: 'pat.png',
     title: 'Program Assessment Tool (PAT)',
     info: 'Context',
-    blurb: 'blurb',
+    blurb: 'This app provides engineering programs with reporting and data collection software that will help faculty maintain' + { abet } + ' accreditation. A higher level goal is for PAT to part of a larger continuous improvement process.',
     info2: 'Lessons Learned',
-    blurb2: 'blurb',
-    info3: 'Web Stack + Explanation',
-    blurb3: 'blurb',
-    url: '',
-    repo: '', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'eol.png',
-    title: 'Engineering Online',
-    info: 'Context',
-    blurb: 'blurb',
-    info2: 'Lessons Learned',
-    blurb2: 'blurb',
-    info3: 'Web Stack + Explanation',
-    blurb3: 'blurb',
+    blurb2: 'The fewer filters between the development team and the actual software users the better. Feedback is an invaluable part of creating things that people will care about and use. Creating the right environment for that feedback cycle to happen gets harder as that distance grows.',
+    info3: 'Type',
+    blurb3: 'Team project',
+    abet: 'https://www.abet.org/',
     url: '',
     repo: '', // if no repo, the button will not show up
   },
@@ -57,14 +45,27 @@ export const projectsData = [
     img: 'foundation.png',
     title: 'Foundation',
     info: 'Context',    
-    blurb: 'blurb',
+    blurb: 'I managed this software development from end-to-end and also worked alongside my team as the UI/UX developer.',
     info2: 'Lessons Learned',
-    blurb2: 'blurb',
-    info3: 'Web Stack + Explanation',
-    blurb3: 'blurb',
+    blurb2: 'When I ran into friction during a sprint, I had to have one-on-one conversations with my coworkers to understand their motivations or obstacles. As the project manager, it was on me to remove roadblocks for things to move forward and that was a new responsibility to experience.',
+    info3: 'Type',
+    blurb3: 'Team project',
     url: '',
     repo: '', // if no repo, the button will not show up
   }
+  {
+    id: nanoid(),
+    img: 'eol.png',
+    title: 'Engineering Online',
+    info: 'Context',
+    blurb: 'This app caters to students interested in an online engineering program. ',
+    info2: 'Lessons Learned',
+    blurb2: 'Balancing two different audiences (students and EOL staff) was difficult because while their workflows were separate, they impacted each other. I had to develop a deep understanding of both sides to develop layouts that would update in a way that made sense as data and content passed back and forth. ',
+    info3: 'Type',
+    blurb3: 'Team project',
+    url: '',
+    repo: '', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
