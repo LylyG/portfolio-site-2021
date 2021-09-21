@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne: "I'm a bookworm turned designer that likes to code. Currently, I work at NC State University as a User Experience Developer.",
   paragraphTwo: "I love having variety in my daily tasks and opportunities to learn. Most of time, I am opening PRs for UIs I've put together using Vuetify. When I need help adding more complexity to an interface, I pair program with the other developers and we learn as a team.",
   paragraphThree: "Sometimes, I'm called to do some graphic design, facilitate client meetings, or even teach during a breakout session.",
-  resume: 'https://lylyg.github.io/LGP%20Resume%20Suite%202021.pdf', // if no resume, the button will not show up
+  resume: 'https://lylyg.github.io/LGP%20Resume%202021.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
