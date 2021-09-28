@@ -34,7 +34,7 @@ const Projects = () => {
                     My main "clients" are the students, faculty, and staff of the College of Engineering. I typically work on a lot of administrative
                     interfaces for bespoke SPAs. 
                 </p>
-                <br></br>
+                <br></br><br></br>
                 <p>
                   <b>Design/UI</b><br></br>
                     When I first started at NC State University, my team had a number of old web applications that needed updating.
@@ -46,7 +46,7 @@ const Projects = () => {
                     target="_blank">Vuetify UI library.</a> I create a PR with a layout using Vuetify components and work with the
                     back-end developers to add more complex functionality.
                 </p>
-                <br></br>
+                <br></br><br></br>
                 <p>
                   <b>Working Philosophy</b><br></br>
                     The team I work on generally follows Agile principles, specifically Scrum. We work in iterative sprints, roughly 
@@ -54,12 +54,13 @@ const Projects = () => {
                     of work, with the goal of deploying it at the end of the sprint. Our group is small, so cross-functional roles 
                     can get messy.
                 </p>
-                <br></br>
+                <br></br><br></br>
                 <p>
                   <b>Web Stack</b><br></br>
                   Vue | PHP | Laravel <br></br>
                   The project code lives in the university's private Github enterprise account.  
                 </p>
+                <br></br>
               </div>
             </div>
           </Row>
