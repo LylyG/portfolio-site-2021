@@ -40,9 +40,11 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   {paragraphOne || ''}
                 </p>
+                <br></br>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo || ''}
                 </p>
+                <br></br>
                 <p className="about-wrapper__info-text">
                   {paragraphThree || ''}
                 </p>
