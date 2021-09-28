@@ -29,27 +29,32 @@ const Projects = () => {
           <div className="project-wrapper">
           <Row>
             <div className="project-wrapper__text">
-              <h3 className="project-wrapper__text-title">Context</h3>
               <div>
                 <p><b>Audience</b><br></br>
                     My main "clients" are the students, faculty, and staff of the College of Engineering. I typically work on a lot of administrative
                     interfaces for bespoke SPAs. 
                 </p>
+                <br></br>
                 <p>
-                  <b>Design + Philosophy</b><br></br>
+                  <b>Design/UI</b><br></br>
                     When I first started at NC State University, my team had a number of old web applications that needed updating.
                     We needed something to apply systematically as we tackled one by one. The university had been a "Google campus"
-                    for a few years, so we looked into <a href="https://material.io/design" target="_blank">Material Design.</a>
+                    for a few years, so we looked into <a href="https://material.io/design" target="_blank">Material Design. </a>
                     Everyone on campus was used to using Google apps, so we decided to apply those design principles moving forward
                     for ease of use. <br></br>
                     Since we were also interested in using Vue, we were lucky to find the <a href="https://vuetifyjs.com/en/" 
                     target="_blank">Vuetify UI library.</a> I create a PR with a layout using Vuetify components and work with the
-                    back-end developers to add more complex functionality.<br></br>
+                    back-end developers to add more complex functionality.
+                </p>
+                <br></br>
+                <p>
+                  <b>Working Philosophy</b><br></br>
                     The team I work on generally follows Agile principles, specifically Scrum. We work in iterative sprints, roughly 
                     two weeks long. Projects are tracked using a Github kanban board. Pull requests are scoped to a manageable chunk 
                     of work, with the goal of deploying it at the end of the sprint. Our group is small, so cross-functional roles 
                     can get messy.
                 </p>
+                <br></br>
                 <p>
                   <b>Web Stack</b><br></br>
                   Vue | PHP | Laravel <br></br>
